@@ -1,0 +1,312 @@
+
+
+/* header */
+header{
+    
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    width: 80%;
+    height: 80px;
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 70px;
+}
+.w-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    margin-left: 60%;
+}
+ul > li{
+    margin: 0 30px;
+}
+
+.btn-img{
+    width: 20px;
+    height: 24px;
+    margin: 0 5px;
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+.game-icons{
+    width: 50px;
+    height: 35px;
+    padding: 0 10px;
+}
+
+/* Play Like The */
+/* main{  
+    background: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+} */
+.play-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    
+    
+}
+.play-title1{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+.play-title2{
+    background:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+.play-description{
+    color: #534C64;
+    font-size: 10px;
+    font-weight: 500;
+    gap: 15px;
+}
+.play-btn-Sign{
+    padding: 10px 20px;
+    background-color:#FF42A5 ;
+    font-size: 10px;
+    color: aliceblue;
+    border-radius:30px;
+    border: none;
+}
+.play-img{
+    width: 40%;
+}
+.play-btn-Go{
+    padding: 10px 20px;
+    background-color:#4EC5F7 ;
+    font-size: 10px;
+    color: aliceblue;
+    border-radius:30px;
+    border: none;
+}
+   /* Online-game */
+   .Online-game-container{
+    margin-top: 6% ;
+    text-align: center;
+
+
+   }
+   .Online-game-title{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 700;
+   }
+    .span-online{
+    background:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+   }
+   .online-description{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+   }
+   /* card-section */
+
+   .card{
+    width: 250px;
+    height: 350px;
+   }
+   
+
+   .card-section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .card-desrciption{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+   }
+
+   .Play-Instantly-content{
+    width: 30%;
+    padding: 140px 30px;
+    height: 60%;
+   }
+   .Play-Instantly-img{
+    width: 50%;
+   }
+   .Play-Instantly{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+   }
+   .img-2{
+    position: relative;
+    top: -170px;
+   }
+   .img-1{
+    margin-left: 50px;
+   }
+ /* more-button */
+ .sp-btn{
+    border: 1px solid  #FF42A5;
+    color: #FF42A5;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .primary-btn{
+    border: 1px solid  white;
+    color: black;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    margin: 0 2%;
+    text-align: center;
+    box-shadow: 10px 10px 10px gainsboro;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+ }
+ .more-button-section{
+    width: 1200px;
+     margin-left:15%;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+      
+ }
+ .more-button{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+ }
+
+
+/* media-query */
+@media screen and (min-width:0) and (max-width:576px) {
+    .nav-content,.nav-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-title{
+        margin: 0;
+    }
+    .nav-container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    ul > li ,.nav-btn{
+        margin: 10px 0;
+    }
+    .nav-content{
+        margin-top: 5%;
+    }
+    main , .play-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .play-content{
+        margin: 10% 0;
+        text-align: center;
+    }
+    .play-img > img {
+        width: 100%;
+    }
+    .play-img{
+        width: 100%;
+    }
+    .play-title2{
+        font-size: 50px ;
+        margin-top: 5px;
+    }
+    main{
+        background: none;
+    }
+    .w-container{
+        margin: auto;
+    }
+    .nav-list {
+        margin-left: 0;
+    }
+    .card-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card{
+         height: 90%;
+        width: 100%;
+    }
+    .Play-Instantly-content {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .Play-Instantly{
+        display: flex;
+        flex-direction: column;
+    }
+    .Play-Instantly-img{
+        width: 100%;
+        margin-top: 5%;
+        height: 20%;
+    }
+    .more-button{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .primary-btn , .sp-btn{
+        width: 30%;
+    }
+    .more-button-section{
+        margin: 0;
+    }
+}
